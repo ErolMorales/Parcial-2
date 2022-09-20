@@ -22,7 +22,7 @@
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{route('Registro.php')}}">Registro</a>
+              <a class="nav-link" href="#">Registro</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Consulta</a>

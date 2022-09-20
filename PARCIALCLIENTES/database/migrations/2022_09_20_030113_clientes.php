@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('clientes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name', 200);
-            $table->number_format('cell', 200);
-            $table->number_format('nit', 200);
+            $table->string('cell', 200);
+            $table->string('nit', 200);
             $table->string('email', 200);
             $table->string('direction', 200);
             $table->timestamps();
